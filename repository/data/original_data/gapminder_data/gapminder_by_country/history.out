@@ -1,0 +1,325 @@
+    1  #!/usr/bin/env python
+    2  """Test script to check required Python version.
+    3  Execute this code at the command line by typing:
+    4    python swc-installation-test-1.py
+    5  How to get a command line:
+    6  - On OSX run this with the Terminal application.
+    7  - On Windows, go to the Start menu, select 'Run' and type 'cmd'
+    8  (without the quotes) to run the 'cmd.exe' Windows Command Prompt.
+    9  - On Linux, either use your login shell directly, or run one of a
+   10    number of graphical terminals (e.g. 'xterm', 'gnome-terminal', ...).
+   11  For some screen shots, see:
+   12    http://software-carpentry.org/setup/terminal.html
+   13  Run the script and follow the instructions it prints at the end.  If
+   14  you see an error saying that the 'python' command was not found, than
+   15  you may not have any version of Python installed.  See:
+   16    http://www.python.org/download/releases/2.7.3/#download
+   17  for installation instructions.
+   18  This test is separate to avoid Python syntax errors parsing the more
+   19  elaborate `swc-installation-test-2.py`.
+   20  """
+   21  import sys as _sys
+   22  __version__ = '0.2'
+   23  def check():
+   24  #!/usr/bin/env python
+   25  """Test script to check for required functionality.
+   26  Execute this code at the command line by typing:
+   27    python swc-installation-test-2.py
+   28  Run the script and follow the instructions it prints at the end.
+   29  This script requires at least Python 2.6.  You can check the version
+   30  of Python that you have installed with 'swc-installation-test-1.py'.
+   31  By default, this script will test for all the dependencies your
+   32  instructor thinks you need.  If you want to test for a different set
+   33  of packages, you can list them on the command line.  For example:
+   34    python swc-installation-test-2.py git virtual-editor
+   35  This is useful if the original test told you to install a more recent
+   36  version of a particular dependency, and you just want to re-test that
+   37  dependency.
+   38  """
+   39  # Some details about the implementation:
+   40  # The dependencies are divided into a hierarchy of classes rooted on
+   41  # Dependency class. You can refer to the code to see which package
+   42  # comes under which type of dependency.
+   43  # The CHECKER dictionary stores information about all the dependencies
+   44  # and CHECKS stores list of the dependencies which are to be checked in
+   45  # the current workshop.
+   46  # In the "__name__ == '__main__'" block, we launch all the checks with
+   47  # check() function, which prints information about the tests as they run
+   48  # and details about the failures after the tests complete. In case of
+   49  # failure, the functions print_system_info() and print_suggestions()
+   50  # are called after this, where the former prints information about the
+   51  # user's system for debugging purposes while the latter prints some
+   52  # suggestions to follow.
+   53  from __future__ import print_function  # for Python 2.6 compatibility
+   54  import distutils.ccompiler as _distutils_ccompiler
+   55  import fnmatch as _fnmatch
+   56  try:  # Python 2.7 and 3.x
+   57      import importlib as _importlib
+   58  except ImportError:  # Python 2.6 and earlier
+   59      class _Importlib (object):
+   60  python
+   61  exit
+   62  env | grep PATH
+   63  ls -al
+   64  exit
+   65  #!/usr/bin/env python
+   66  """Test script to check required Python version.
+   67  Execute this code at the command line by typing:
+   68    python swc-installation-test-1.py
+   69  How to get a command line:
+   70  - On OSX run this with the Terminal application.
+   71  - On Windows, go to the Start menu, select 'Run' and type 'cmd'
+   72  (without the quotes) to run the 'cmd.exe' Windows Command Prompt.
+   73  - On Linux, either use your login shell directly, or run one of a
+   74    number of graphical terminals (e.g. 'xterm', 'gnome-terminal', ...).
+   75  For some screen shots, see:
+   76    http://software-carpentry.org/setup/terminal.html
+   77  Run the script and follow the instructions it prints at the end.  If
+   78  you see an error saying that the 'python' command was not found, than
+   79  you may not have any version of Python installed.  See:
+   80    http://www.python.org/download/releases/2.7.3/#download
+   81  for installation instructions.
+   82  This test is separate to avoid Python syntax errors parsing the more
+   83  elaborate `swc-installation-test-2.py`.
+   84  """
+   85  import sys as _sys
+   86  __version__ = '0.2'
+   87  def check():
+   88  #!/usr/bin/env python
+   89  """Test script to check for required functionality.
+   90  Execute this code at the command line by typing:
+   91    python swc-installation-test-2.py
+   92  Run the script and follow the instructions it prints at the end.
+   93  This script requires at least Python 2.6.  You can check the version
+   94  of Python that you have installed with 'swc-installation-test-1.py'.
+   95  By default, this script will test for all the dependencies your
+   96  instructor thinks you need.  If you want to test for a different set
+   97  of packages, you can list them on the command line.  For example:
+   98    python swc-installation-test-2.py git virtual-editor
+   99  This is useful if the original test told you to install a more recent
+  100  version of a particular dependency, and you just want to re-test that
+  101  dependency.
+  102  """
+  103  # Some details about the implementation:
+  104  # The dependencies are divided into a hierarchy of classes rooted on
+  105  # Dependency class. You can refer to the code to see which package
+  106  # comes under which type of dependency.
+  107  # The CHECKER dictionary stores information about all the dependencies
+  108  # and CHECKS stores list of the dependencies which are to be checked in
+  109  # the current workshop.
+  110  # In the "__name__ == '__main__'" block, we launch all the checks with
+  111  # check() function, which prints information about the tests as they run
+  112  # and details about the failures after the tests complete. In case of
+  113  # failure, the functions print_system_info() and print_suggestions()
+  114  # are called after this, where the former prints information about the
+  115  # user's system for debugging purposes while the latter prints some
+  116  # suggestions to follow.
+  117  from __future__ import print_function  # for Python 2.6 compatibility
+  118  import distutils.ccompiler as _distutils_ccompiler
+  119  import fnmatch as _fnmatch
+  120  try:  # Python 2.7 and 3.x
+  121      import importlib as _importlib
+  122  except ImportError:  # Python 2.6 and earlier
+  123      class _Importlib (object):
+  124  pwd
+  125  ls -a
+  126  ls -la
+  127  ls -l -a
+  128  cd --help
+  129  q
+  130  ls -l
+  131  cd Documents/
+  132  ls -l
+  133  cd ../..
+  134  cd ~Documents
+  135  cd ~
+  136  mkdir SDC_02-23-2019
+  137  ls -l
+  138  mkdir SDC_02-23-2019/repository
+  139  mkdir SDC_02-23-2019/repository/thesis
+  140  mkdir SDC_02-23-2019/repository/analyses
+  141  mkdir SDC_02-23-2019/repository/data
+  142  mkdir SDC_02-23-2019/repository/data/original_data
+  143  mkdir SDC_02-23-2019/repository/data/processed_data
+  144  pwd
+  145  ls -l
+  146  cd reposiyory/
+  147  cd repository
+  148  cd repository/
+  149  ls
+  150  cd SDC_02-23-2019/
+  151  ls
+  152  cd repository/
+  153  cd ..
+  154  ls
+  155  cd repository/
+  156  nano thesis.txt
+  157  touch draft.txt
+  158  ls -l
+  159  nano draft.txt
+  160  mv draft.txt thesis/
+  161  ls
+  162  cp thesis.txt thesis/thesis_copy.txt
+  163  ls -1 thesis
+  164  cd ~/SDC_02-23-2019/
+  165  pwd
+  166  git clone https://github.com/aliceaes12/2019-02-23-WorkshopResources.git
+  167  ls -l
+  168  pwd
+  169  ls -l
+  170  cp -r 2019-02-23-WorkshopResources/shell-lessons/data/* repository/data/original_data/
+  171  ls -la repository/data/original_data/
+  172  pwd
+  173  cd repository/
+  174  cat data/original_data//gapminder_data/gapminder_by_country/Afghanistan.cc.txt 
+  175  tail -n data/original_data//gapminder_data/gapminder_by_country/Afghanistan.cc.txt 
+  176  tail -1 data/original_data//gapminder_data/gapminder_by_country/Afghanistan.cc.txt 
+  177  head data/original_data/gapminder_data/gapminder_by_country/Afghanistan.cc.txt 
+  178  wc data/original_data/gapminder_data/gapminder_by_country/Afghanistan.cc.txt 
+  179  wc -l data/original_data/gapminder_data/gapminder_by_country/Afghanistan.cc.txt 
+  180  pwd
+  181  cd data/original_data/gapminder_data/gapminder_by_country/Afghanistan.cc.txt 
+  182  cd data/original_data/gapminder_data/gapminder_by_country/
+  183  pwd
+  184  cat country.cc.txt
+  185  mv country.cc.txt header.txt
+  186  cat header.txt
+  187  ls
+  188  cat header.txt
+  189  cat *.cc.txt
+  190  cat *.cc.txt | less
+  191  cat *.cc.txt | head
+  192  cat *.cc.txt | tail
+  193  cat header.txt *.cc.txt >> ../../../processed_data/all_countries.txt
+  194  cd ~/SDC_02-23-2019/repository/data/processed_data/
+  195  ls
+  196  ls -l
+  197  wc -l all_countries.txt 
+  198  head all_countries.txt 
+  199  tail all_countries.txt 
+  200  pwd
+  201  cd ../../../
+  202  pwd
+  203  cd 2019-02-23-WorkshopResources/shell-lessons/data/gapminder_data/gapminder_by_country/
+  204  ls
+  205  nano Argentina.cc.txt 
+  206  git status
+  207  git add Argentina.cc.txt
+  208  git status
+  209  git commit -m "fixed date error in Argentina file"
+  210  git status
+  211  git config --global user.name "aliceaes12"
+  212  git config --global user.email "solomona12@email.arizona.edu"
+  213  git commit -m "fixed date error in Argentina file"
+  214  git status
+  215  git log
+  216  ls
+  217  history | tail
+  218  cat Vietnam.cc.txt 
+  219  cp Vietnam.cc.txt Vietnam_copy.cc.txt
+  220  ls
+  221  git status
+  222  git add Vietnam_copy.cc.txt 
+  223  git status
+  224  git commit -m "created copy of Vietnam file"
+  225  git status
+  226  git log
+  227  git push
+  228  git status
+  229  git push
+  230  cd ~/SDC_02-23-2019/repository/data/processed_data/
+  231  head all_countries.txt 
+  232  tail all_countries.txt 
+  233  cd ../original_data/gapminder_data/gapminder_by_country/
+  234  cat header.txt  *.cc.txt | head -3
+  235  cat header.txt  *.cc.txt > ../../../processed_data/all_countries.txt 
+  236  cd ~/SDC_02-23-2019/repository/
+  237  mkdir scripts
+  238  ls
+  239  cp -r ~/SDC_02-23-2019/2019-02-23-WorkshopResources/shell-lessons/scripts/* scripts/
+  240  ls scripts
+  241  cd data/original_data/gapminder_data/gapminder_by_country/
+  242  wc -l *.txt
+  243  wc Zimbabwe.cc.txt 
+  244  wc -l *.txt
+  245  wc -l ../../../processed_data/all_countries.txt 
+  246  cat a*.cc.txt
+  247  cat A*.cc.txt
+  248  cat [YZ]*.txt
+  249  cat [W-Z]*.txt
+  250  cat header.txt 
+  251  cut -f 2 Zimbabwe.cc.txt 
+  252  cut -f 5 Zimbabwe.cc.txt 
+  253  cut -f 5 Zimbabwe.cc.txt | sort -n
+  254  ls | wc -l
+  255  grep "2007" [W-Z]*.txt
+  256  grep "2007" [L-P]*.txt
+  257  grep "\b2007\b" [L-P]*.txt
+  258  grep "\b2007\b" [L-P]*.txt | wc -l
+  259  grep "\b2007\b" *.txt | wc -l
+  260  ls *.txt | wc -l
+  261  cp ../../../../scripts/
+  262  cd ../../../../scripts/
+  263  for gapminderfile in [W-Z]*.txt; do echo $gapminderfile; done
+  264  cd ../data/original_data/gapminder_data/gapminder_by_country/
+  265  for gapminderfile in [W-Z]*.txt; do echo $gapminderfile; done
+  266  for gapminderfile in [W-Z]*.txt; do cut -f 5 $gapminderfile | head -l; done
+  267  for gapminderfile in [W-Z]*.txt; do cut -f 5 $gapminderfile | head -1; done
+  268  for zfiles in Z*.txt; do wc -l $zfiles; done
+  269  cat ../../../../scripts/loop_files.sh
+  270  bash ../../../../scripts/loop_files.sh
+  271  sh ../../../../scripts/loop_files.sh
+  272  bash ../../../../scripts/loop_files.sh
+  273  cat ../../../../scripts/loop_cut.sh
+  274  bash ../../../../scripts/loop_cut.sh
+  275  ls ../../../../scripts/
+  276  nano ../../../../scripts/loop_cut_low.sh
+  277  bash ../../../../scripts/loop_cut_low.sh
+  278  cat ../../../../scripts/loop_cut_low.sh
+  279  cat ../../../../scripts/loop_cut_arg.sh
+  280  bash ../../../../scripts/loop_cut_arg.sh 3
+  281  cat header.txt 
+  282  bash ../../../../scripts/loop_cut_arg.sh 2
+  283  cat ../../../../scripts/loop_cut.sh
+  284  nano ../../../../scripts/loop_cut_arg.sh
+  285  bash ../../../../scripts/loop_cut_arg.sh 2 3 6
+  286  nano ../../../../scripts/loop_cut_arg.sh
+  287  bash ../../../../scripts/loop_cut_arg.sh 2 3 6
+  288  bash -x ../../../../scripts/loop_cut_arg.sh 2 3 6
+  289  nano -x ../../../../scripts/loop_cut_arg.sh
+  290  bash -x ../../../../scripts/loop_cut_arg.sh 2 5 6 3
+  291  bash ../../../../scripts/loop_cut_arg.sh 2 5 6 3
+  292  bash ../../../../scripts/loop_cut_arg.sh 1 4 5 5
+  293  nano -x ../../../../scripts/loop_cut_arg.sh
+  294  bash ../../../../scripts/loop_cut_arg.sh 1 4 5 5 n
+  295  bash ../../../../scripts/loop_cut_arg.sh 1 4 5 5 nr
+  296  nano -x ../../../../scripts/loop_cut_arg.sh
+  297  bash ../../../../scripts/loop_cut_arg.sh 1 4 5 5 nr
+  298  bash ../../../../scripts/loop_cut_arg.sh 1 4 2 nr
+  299  nano ../../../../scripts/loop_cut_arg.sh
+  300  nano ../../../../scripts/loop_cut_arg.sh
+  301  bash ../../../../scripts/loop_cut_arg.sh 1 4 2 3 nr
+  302  nano ../../../../scripts/loop_cut_arg.sh
+  303  nano ../../../../scripts/loop_cut_arg.sh
+  304  cat ../../../../scripts/loop_conditional1.sh
+  305  bash ../../../../scripts/loop_conditional1.sh 5 high
+  306  bash ../../../../scripts/loop_conditional1.sh 5 low
+  307  nano ../../../../scripts/loop_conditional1.sh
+  308  nano ../../../../scripts/loop_conditional1.sh
+  309  cat ../../../../scripts/loop_files.sh
+  310  cat ../../../../scripts/loop_files_args.sh
+  311  bash ../../../../scripts/loop_files_args.sh [I-K]*.txt
+  312  bash ../../../../scripts/loop_files_args.sh [I-K,U]*.txt
+  313  bash ../../../../scripts/loop_conditional1.sh 5 medium
+  314  bash -x ../../../../scripts/loop_conditional1.sh 5 medium
+  315  cat ../../../../scripts/loop_conditional1_commented.sh
+  316  cp ../../../../scripts/loop_conditional1_commented.sh ../../../../scripts/loop_shell_exercise.sh
+  317  nano ../../../../scripts/loop_shell_exercise.sh
+  318  ls Z*.txt
+  319  ls Z*.txt >>Zfiles.out
+  320  cat Zfiles.out
+  321  wc -l Zimbabwe.cc.txt 
+  322  wc -l Zimbabwe.cc.txt >Zimbabwe_linecount.out
+  323  cat Zimbabwe_linecount.out
+  324  history
+  325  history >history.out
